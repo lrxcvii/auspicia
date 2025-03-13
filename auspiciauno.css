@@ -1,0 +1,108 @@
+.cradle br {display: none; }
+.cradle-story br {display: inherit; }
+
+.cradle {
+  --cradle-bold: #dd8b2e;
+  --cradle-back: #d8d8d8;
+  --cradle-second: #c5c5c5;
+  --cradle-text: #333;
+  width: 650px;
+  box-sizing: border-box;
+  padding: 35px;
+  background: #000000;
+  border: 0px double #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin: 0 auto;
+  font: 12px/125% merriweather;
+  color: var(--cradle-text);
+}
+
+.cradle-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cradle-image {
+  background: var(--image) center;
+  background-size: cover;
+  width: 350px;
+  height: 290px;
+  flex-shrink: 0;
+  border: 0px solid var(--cradle-bold);
+  filter: brightness(0.5) contrast(1.1);
+}
+
+.cradle-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: end;
+  align-self: stretch;
+}
+
+.cradle-name {
+  font: 78px / 100% Mea Culpa;
+  text-transform: none;
+  color: var(--cradle-bold);
+  text-align: start;
+  margin-left:35px;
+}
+
+.cradle-data strong { color: var(--cradle-bold) !important; }
+
+.cradle-personality {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  font: 14px / 10px merriweather;
+  text-transform: lowercase;
+  line-height:19px;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.cradle-personality span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cradle-personality node {
+  width: 85px;
+  height: 2px;
+  border-radius: 3px;
+  background: #1d1d1d;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cradle-personality node:before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 8px;
+  background: var(--cradle-bold);
+  border-radius: 3px;
+  left: calc(var(--valor)* 10%);
+}
+
+
+.cradle-quote 
+{text-align: center; 
+  width: 100%; 
+  text-transform: lowercase;
+  font: 18px Playfair Display;
+  font-style: italic;
+  color:#595651;
+}
+.cradle-dark .cradle-header {flex-direction: row-reverse; }
+.cradle-dark .cradle-name {text-align: end; }
+.cradle-dark .cradle-sub {text-align: start; }
+.cradle-dark .cradle-data span {align-items: end; }
+.cradle-dark .cradle-short {flex-direction: row-reverse; }
