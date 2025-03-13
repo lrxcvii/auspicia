@@ -1,12 +1,4 @@
-body {background: #090909; display: flex; justify-content: center; }
-@import url("https://use.typekit.net/hwd7mxc.css");
 
-@font-face {
-  font-family: 'Aelyn';
-  src: url('https://thecozycorgi.github.io/fonts/Aelyn.otf') format('opentype');
-}
-
-/* codember2024 - cradle */
 .cradle br {display: none; }
 .cradle-story br {display: inherit; }
 
