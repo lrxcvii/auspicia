@@ -1,0 +1,114 @@
+.ppkkoth { 
+  width: 550px; 
+  box-sizing: border-box; 
+  padding: 35px; 
+  background: #000000; 
+  border: 10px solid var(--usercolor); 
+  display: flex; 
+  flex-direction: column; 
+  gap: 45px; 
+  margin: auto; 
+  font: 12px/125% merriweather; 
+  color: #7e7e7e; 
+  Float: center; 
+}
+
+.ppkkoth-header { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 15px; 
+}
+
+.ppkkoth-image { 
+  background: var(--image) center; 
+  background-size: cover; 
+  width: 200px; 
+  height: 300px; 
+  flex-shrink: 0; 
+  border: 5px solid var(--usercolor); 
+  filter: brightness(0.7) contrast(1.0); 
+}
+
+.ppkkoth-info { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 5px; 
+  align-items: end; 
+  align-self: stretch; 
+}
+
+.ppkkoth-name { 
+  text-transform: none; 
+  color: var(--usercolor); 
+  text-align: start; 
+  margin-right:25px;
+}
+
+.ppkkoth-personality { 
+  width: 85%; 
+  display: flex; 
+  flex-direction: column; 
+  font: 14px / 10px merriweather; 
+  text-transform: lowercase; 
+  gap: 0px; 
+  margin-top: 10px; 
+  line-height: -20px; 
+  margin-right:25px;
+}
+
+.ppkkoth-personality span { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.ppkkoth-personality node { 
+  width: 85px; 
+  height: 2px; 
+  border-radius: 3px; 
+  background: #1d1d1d; 
+  box-sizing: border-box; 
+  position: relative; 
+  display: flex; 
+  align-items: center; 
+}
+
+.ppkkoth-personality node:before { 
+  content: ''; 
+  position: absolute; 
+  width: 3px; 
+  height: 8px; 
+  background: var(--usercolor); 
+  border-radius: 3px; 
+  left: calc(var(--valor) * 10%); 
+}
+
+.ppkkoth-quote { 
+  text-align: center; 
+  width: 100%; 
+  text-transform: lowercase; 
+  font: 18px Playfair Display; 
+  font-style: italic; 
+  color: #595651; 
+}
+
+.ppkkoth-dark .ppkkoth-header { 
+  flex-direction: row-reverse; 
+}
+
+.ppkkoth-dark .ppkkoth-name { 
+  text-align: end; 
+}
+
+.ppkkoth-dark .ppkkoth-sub { 
+  text-align: start; 
+}
+
+.ppkkoth-dark .ppkkoth-data span { 
+  align-items: end; 
+}
+
+.ppkkoth-dark .ppkkoth-short { 
+  flex-direction: row-reverse; 
+}
