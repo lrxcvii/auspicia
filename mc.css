@@ -1,0 +1,52 @@
+.mirein {
+  width: 350px;
+  height: 190px;
+  outline: 2px solid #131313;
+  outline-offset: 3px;
+  overflow: hidden;
+  filter:grayscale(1) contrast(1.1) brightness(0.8) sepia(0.4);
+}
+
+
+.calohan {
+  color:#4f4128;
+  text-align:left; 
+  font:240px 'Playfair Display', serif; 
+  letter-spacing:2px; 
+  line-height:10px; 
+  margin-top:-50px; 
+  margin-left:-80px; 
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #675431;
+  opacity:0.3;
+  transform: rotate(40deg);
+  position:absolute;
+   text-shadow:0 0 8px #514329;
+}
+
+.mons {
+  width: 350px;
+  height: 190px;
+  color:#fff; 
+  align-content:center; 
+  text-align:center;
+  font:11px 'Cinzel', serif; 
+  letter-spacing:3px; 
+  line-height:10px; 
+  text-shadow:0 0 8px #fff; 
+  opacity:0.45;
+  position:absolute;
+}
+
+.mons i{
+  font-style:normal;
+  letter-spacing:5px;
+  font-size:12px;
+  text-shadow:1px 1px 1px #000000;
+}
+
+.mons b{
+  font-style:normal;
+  letter-spacing:-2px;
+  font-size:13px;
+}
