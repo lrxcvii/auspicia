@@ -1,0 +1,42 @@
+Here’s your CSS, cleaned up and organized by selectors, with consistent formatting, proper indentation, and grouped properties for better readability:
+
+```css
+.onixbox {
+  width: 370px;
+  height: 200px;
+  outline: 3px solid #3e3023;
+  outline-offset: 3px;
+  filter: grayscale(0.7) sepia(0.7) contrast(1.4) saturate(1.7) hue-rotate(-13deg) brightness(0.8);
+}
+
+.onix {
+  color: #fff;
+  text-align: center;
+  font: 12px 'Playfair Display', serif;
+  letter-spacing: 2px;
+  line-height: 12px;
+  padding-top: 95px;
+  margin-left: 0;
+  text-shadow: 1px 1px 1px #000000;
+  opacity: 0.5;
+}
+
+.onix span {
+  font-size: 36px;
+  letter-spacing: -3px;
+  text-shadow: 1px 1px 1px #000000;
+  opacity: 0.5;
+}
+
+.onix2 {
+  color: #dcd0ba;
+  text-align: center;
+  font: 12px 'Cinzel', serif;
+  letter-spacing: 2px;
+  padding-top: 85px;
+  text-shadow: 1px 2px 2px #000000;
+  opacity: 0.9;
+}
+```
+
+Let me know if you want this split into separate CSS files, embedded `<style>` blocks, or grouped by functionality (e.g., typography vs layout vs effects).
