@@ -86,3 +86,41 @@
   position:absolute;
   margin-left:15px;
 }
+
+.erynn3 {
+  width: 270px;
+  height: 195px;
+  outline-offset: 3px;;
+}
+
+.lain3 {
+  width: 260px;
+  height: 190px;
+  color:#fff; 
+  align-content:center; 
+  text-align:center;
+  font:10px 'Cinzel'; 
+  letter-spacing:1px; 
+  line-height:10px; 
+  text-shadow:1px 1px 1px #000000; 
+  opacity:0.9;
+  position:absolute;
+  margin-left:60px;
+}
+.lain3 i {
+  
+  letter-spacing:2px;
+  font-style:normal;
+}
+.truth3 {
+  color:#ffffff;
+  text-align:center; 
+  font:110px 'Playfair Display', serif; 
+  letter-spacing:2px; 
+  line-height:10px; 
+  top:40px;
+left:150px;
+  opacity:0.3;
+  transform: rotate(-10deg);
+  position:absolute;
+}
